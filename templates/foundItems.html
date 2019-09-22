@@ -3,6 +3,7 @@
         <tbody>
         <tr ng-repeat="item in list.items">
             <td>{{item.short_name}}</td>
+            <td>{{item.name}}</td>
             <td>{{item.description}}</td>
             <td class="col-md-2">
                 <button class="btn-danger" ng-click="list.onRemove({index: $index})"> Don't want this one! </button>
